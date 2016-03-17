@@ -4,20 +4,19 @@ public class Operator02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int n1 = 10;
-		int n2 = n1++;
+		int n2 = 5;
+
+		int result = n1 & n2;
+		System.out.println(result);
+
+		result = n1 | n2;
+		System.out.println(result);
+
+		result = n1 ^ n2;
+		System.out.println(result);
 		
-		System.out.printf("n1 = %d n2 = %d\n",n1,n2);
-		
-		int n3=10;
-		
-		System.out.println("n3 = "+n3++);
-		System.out.println("n3 = "+n3);
-		
-		int n4=10;
-		
-		System.out.println("n4 = "+ ++n4);
-		System.out.println("n4 = "+n4);
-		
+		result = ~n1 & n2;
+		System.out.println(result);
 	}
 
 }

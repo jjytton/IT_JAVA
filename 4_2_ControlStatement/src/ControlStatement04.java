@@ -14,7 +14,16 @@ public class ControlStatement04 {
 		}else{
 			System.out.println("login 실패");
 		}
-		
+		int menu=13;
+		if(menu==1){
+			System.out.println("select 한식");
+		}else if(menu==2){
+			System.out.println("select 중식");
+		}else if(menu==3){
+			System.out.println("select 일식");
+		}else {
+			System.out.println("잘못된 선택");
+		}
 	}
 
 }

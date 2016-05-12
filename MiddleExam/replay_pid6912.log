@@ -1,0 +1,13 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 311 ciObject found
+instanceKlass javax/swing/TimerQueue$DelayedTimer
+instanceKlass java/util/concurrent/Delayed
+instanceKlass javax/swing/text/JTextComponent$InputMethodRequestsHandler
+instanceKlass java/awt/WaitDispatchSupport$4
+instanceKlass java/awt/WaitDispatchSupport$2
+instanceKlass java/awt/WaitDispatchSupport$1
+instanceKlass java/awt/WaitDispatchSupport$5
+instanceKlass java/awt/WaitDispatchSupport
+instanceKlass java/awt/SecondaryLoop
